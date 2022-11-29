@@ -1,9 +1,9 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import Start from "../Pages/start";
+import Start from "../Pages/Start/index.jsx";
 
-const Start = createNativeStackNavigator();
+const start = createNativeStackNavigator();
 
 export default function AllPages() {
   return (
